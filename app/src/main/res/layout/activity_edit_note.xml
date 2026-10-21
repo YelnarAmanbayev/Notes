@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/notes_background"
+    android:padding="@dimen/screen_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/large_spacing"
+        android:layout_marginBottom="@dimen/small_spacing"
+        android:text="@string/edit_screen_title"
+        android:textSize="@dimen/title_size"
+        android:textStyle="bold"
+        android:textColor="@color/notes_primary" />
+
+    <EditText
+        android:id="@+id/etNoteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/input_min_height"
+        android:padding="@dimen/input_padding"
+        android:background="@color/notes_card"
+        android:hint="@string/hint_note_title"
+        android:inputType="textCapSentences"
+        android:textSize="@dimen/note_title_size"
+        android:textColor="@color/notes_primary"
+        android:textColorHint="@color/notes_secondary" />
+
+    <EditText
+        android:id="@+id/etNoteContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/note_spacing"
+        android:padding="@dimen/content_padding"
+        android:background="@color/notes_card"
+        android:hint="@string/hint_note_content"
+        android:gravity="top"
+        android:inputType="textMultiLine|textCapSentences"
+        android:textSize="@dimen/content_size"
+        android:textColor="@color/notes_text"
+        android:textColorHint="@color/notes_secondary" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/note_spacing"
+        android:text="@string/save_note"
+        android:textSize="@dimen/button_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/notes_accent" />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основные размеры -->
+    <dimen name="screen_padding">24dp</dimen>
+    <dimen name="title_size">30sp</dimen>
+    <dimen name="content_size">18sp</dimen>
+    <dimen name="note_spacing">16dp</dimen>
+
+    <!-- Размеры текста -->
+    <dimen name="main_title_size">32sp</dimen>
+    <dimen name="note_title_size">20sp</dimen>
+    <dimen name="subtitle_size">14sp</dimen>
+    <dimen name="button_text_size">16sp</dimen>
+
+    <!-- Отступы -->
+    <dimen name="small_spacing">8dp</dimen>
+    <dimen name="medium_spacing">12dp</dimen>
+    <dimen name="large_spacing">20dp</dimen>
+    <dimen name="extra_spacing">24dp</dimen>
+    <dimen name="section_spacing">28dp</dimen>
+
+    <!-- Кнопки и поля -->
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="input_min_height">64dp</dimen>
+    <dimen name="input_padding">16dp</dimen>
+    <dimen name="content_padding">18dp</dimen>
+    <dimen name="line_spacing">6dp</dimen>
+</resources>

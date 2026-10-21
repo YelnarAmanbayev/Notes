@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="notes_title">Мои заметки</string>
+    <string name="add_note">+ Добавить заметку</string>
+    <string name="note_title">Заголовок заметки</string>
+    <string name="note_content">Здесь будет текст заметки</string>
+    <string name="edit_note">Редактировать</string>
+    <string name="hint_note_title">Название заметки</string>
+    <string name="hint_note_content">Введите текст заметки...</string>
+    <string name="save_note">Сохранить</string>
+    <string name="empty_fields">Заполните все поля</string>
+    <string name="note_saved">Заметка сохранена</string>
+    <string name="edit_screen_title">Ваша заметка</string>
+    <string name="separator">--------------------</string>
+</resources>

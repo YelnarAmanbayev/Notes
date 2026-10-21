@@ -1,0 +1,51 @@
+﻿--------- beginning of main
+10-21 15:33:45.386  8092  8092 D MainActivity: onCreate
+10-21 15:33:45.396  8092  8092 D MainActivity: onStart
+10-21 15:33:45.411  8092  8092 D MainActivity: onResume
+10-21 15:33:55.270  8092  8092 I MainActivity: Добавление заметки
+10-21 15:33:55.307  8092  8092 D MainActivity: onPause
+10-21 15:33:55.381  8092  8092 D EditNoteActivity: onCreate
+10-21 15:33:55.383  8092  8092 D EditNoteActivity: onStart
+10-21 15:33:55.384  8092  8092 D EditNoteActivity: onResume
+10-21 15:33:56.152  8092  8092 D MainActivity: onStop
+10-21 15:33:56.749  8092  8092 W EditNoteActivity: Пустые поля
+10-21 15:34:05.251  8092  8092 I EditNoteActivity: Заметка создана: 111
+10-21 15:34:05.273  8092  8092 D EditNoteActivity: onPause
+10-21 15:34:05.296  8092  8092 D MainActivity: onStart
+10-21 15:34:05.296  8092  8092 D MainActivity: onResume
+10-21 15:34:05.948  8092  8092 D EditNoteActivity: onStop
+10-21 15:34:05.951  8092  8092 D EditNoteActivity: onDestroy
+10-21 15:34:08.544  8092  8092 D MainActivity: onPause
+10-21 15:34:09.904  8092  8092 D MainActivity: onStop
+10-21 15:34:09.906  8092  8092 D MainActivity: onDestroy
+10-21 15:34:10.345  8092  8092 D MainActivity: onCreate
+10-21 15:34:10.347  8092  8092 D MainActivity: onStart
+10-21 15:34:10.349  8092  8092 D MainActivity: onResume
+10-21 15:34:12.344  8092  8092 I MainActivity: Открыта заметка: 111
+10-21 15:34:12.357  8092  8092 D MainActivity: onPause
+10-21 15:34:12.378  8092  8092 D DetailActivity: onCreate
+10-21 15:34:12.380  8092  8092 D DetailActivity: onStart
+10-21 15:34:12.382  8092  8092 D DetailActivity: onResume
+10-21 15:34:12.382  8092  8092 D DetailActivity: Заметка отображена: 111
+10-21 15:34:13.026  8092  8092 D MainActivity: onStop
+10-21 15:34:14.563  8092  8092 I DetailActivity: Нажата кнопка редактирования
+10-21 15:34:14.582  8092  8092 D DetailActivity: onPause
+10-21 15:34:14.608  8092  8092 D EditNoteActivity: onCreate
+10-21 15:34:14.608  8092  8092 I EditNoteActivity: Редактирование: 111
+10-21 15:34:14.609  8092  8092 D EditNoteActivity: onStart
+10-21 15:34:14.611  8092  8092 D EditNoteActivity: onResume
+10-21 15:34:15.296  8092  8092 D DetailActivity: onStop
+10-21 15:34:21.759  8092  8092 I EditNoteActivity: Заметка изменена: 111
+10-21 15:34:21.777  8092  8092 D EditNoteActivity: onPause
+10-21 15:34:21.796  8092  8092 D DetailActivity: onStart
+10-21 15:34:21.796  8092  8092 D DetailActivity: onResume
+10-21 15:34:21.798  8092  8092 D DetailActivity: Заметка отображена: 111
+10-21 15:34:22.509  8092  8092 D EditNoteActivity: onStop
+10-21 15:34:22.512  8092  8092 D EditNoteActivity: onDestroy
+10-21 15:34:29.350  8092  8092 D DetailActivity: onPause
+10-21 15:34:29.356  8092  8092 D MainActivity: onStart
+10-21 15:34:29.357  8092  8092 D MainActivity: onResume
+10-21 15:34:29.994  8092  8092 D DetailActivity: onStop
+10-21 15:34:29.996  8092  8092 D DetailActivity: onDestroy
+10-21 15:34:36.075  8092  8092 D MainActivity: onPause
+10-21 15:34:37.355  8092  8092 D MainActivity: onStop

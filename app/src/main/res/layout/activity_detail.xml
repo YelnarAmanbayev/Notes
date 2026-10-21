@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/notes_background"
+    android:padding="@dimen/screen_padding">
+
+    <TextView
+        android:id="@+id/tvNoteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/large_spacing"
+        android:text="@string/note_title"
+        android:textSize="@dimen/title_size"
+        android:textStyle="bold"
+        android:textColor="@color/notes_primary" />
+
+    <TextView
+        android:id="@+id/tvNoteContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNoteTitle"
+        android:layout_above="@id/btnEdit"
+        android:layout_marginTop="@dimen/extra_spacing"
+        android:layout_marginBottom="@dimen/large_spacing"
+        android:background="@color/notes_card"
+        android:padding="@dimen/large_spacing"
+        android:text="@string/note_content"
+        android:textSize="@dimen/content_size"
+        android:textColor="@color/notes_text"
+        android:lineSpacingExtra="@dimen/line_spacing"
+        android:gravity="top" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/small_spacing"
+        android:text="@string/edit_note"
+        android:textSize="@dimen/button_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/notes_accent" />
+
+</RelativeLayout>

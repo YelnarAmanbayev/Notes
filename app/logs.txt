@@ -1,0 +1,209 @@
+---------------------------- PROCESS STARTED (7120) for package com.example.notes ----------------------------
+2026-10-21 20:27:03.504  7120-7120  nativeloader            com.example.notes                    D  Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+2026-10-21 20:27:03.569  7120-7120  m.example.notes         com.example.notes                    W  Suspending all threads took: 7.491ms
+2026-10-21 20:27:03.568  7120-7120  re-initialized>         com.example.notes                    W  type=1400 audit(0.0:42): avc:  granted  { execute } for  path="/data/data/com.example.notes/code_cache/startup_agents/5f6d8015-agent.so" dev="dm-6" ino=573500 scontext=u:r:untrusted_app:s0:c235,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c235,c256,c512,c768 tclass=file app=com.example.notes
+2026-10-21 20:27:03.598  7120-7120  nativeloader            com.example.notes                    D  Load /data/user/0/com.example.notes/code_cache/startup_agents/5f6d8015-agent.so using system ns (caller=<unknown>): ok
+2026-10-21 20:27:03.623  7120-7120  m.example.notes         com.example.notes                    W  hiddenapi: DexFile /data/data/com.example.notes/code_cache/.studio/instruments-6c1710de.jar is in boot class path but is not in a known location
+2026-10-21 20:27:03.892  7120-7120  m.example.notes         com.example.notes                    W  Redefining intrinsic method java.lang.Thread java.lang.Thread.currentThread(). This may cause the unexpected use of the original definition of java.lang.Thread java.lang.Thread.currentThread()in methods that have already been compiled.
+2026-10-21 20:27:03.892  7120-7120  m.example.notes         com.example.notes                    W  Redefining intrinsic method boolean java.lang.Thread.interrupted(). This may cause the unexpected use of the original definition of boolean java.lang.Thread.interrupted()in methods that have already been compiled.
+2026-10-21 20:27:03.915  7120-7120  CompatChangeReporter    com.example.notes                    D  Compat change id reported: 333566037; UID 10235; state: ENABLED
+2026-10-21 20:27:04.095  7120-7120  nativeloader            com.example.notes                    D  Configuring clns-9 for other apk /data/app/~~f8XWPp5NS6A_q5C6zZ5HxA==/com.example.notes-CFLJ0wQyT6_wSNjx6Q4ryA==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~f8XWPp5NS6A_q5C6zZ5HxA==/com.example.notes-CFLJ0wQyT6_wSNjx6Q4ryA==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.notes
+2026-10-21 20:27:04.124  7120-7120  CompatChangeReporter    com.example.notes                    D  Compat change id reported: 407952621; UID 10235; state: ENABLED
+2026-10-21 20:27:04.125  7120-7120  CompatChangeReporter    com.example.notes                    D  Compat change id reported: 419020719; UID 10235; state: ENABLED
+2026-10-21 20:27:04.220  7120-7120  CompatChangeReporter    com.example.notes                    D  Compat change id reported: 458413887; UID 10235; state: ENABLED
+2026-10-21 20:27:04.226  7120-7134  DisplayManager          com.example.notes                    I  Choreographer implicitly registered for the refresh rate.
+2026-10-21 20:27:04.341  7120-7134  GFXSTREAM               com.example.notes                    I  [eglDisplay.cpp(297)] Opening libGLESv1_CM_emulation.so
+2026-10-21 20:27:04.345  7120-7134  GFXSTREAM               com.example.notes                    I  [eglDisplay.cpp(297)] Opening libGLESv2_emulation.so
+2026-10-21 20:27:04.419  7120-7134  libc                    com.example.notes                    W  Access denied finding property "vendor.mesa.virtgpu.kumquat"
+2026-10-21 20:27:04.443  7120-7134  HWUI                    com.example.notes                    W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2026-10-21 20:27:04.444  7120-7134  HWUI                    com.example.notes                    W  Failed to initialize 101010-2 format, error = EGL_SUCCESS
+2026-10-21 20:27:04.497  7120-7120  DesktopExperienceFlags  com.example.notes                    D  Toggle override initialized to: false
+2026-10-21 20:27:04.588  7120-7120  AppCompatDelegate       com.example.notes                    D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2026-10-21 20:27:04.958  7120-7120  m.example.notes         com.example.notes                    I  hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app, TargetSdkVersion=37) using reflection: allowed
+2026-10-21 20:27:05.038  7120-7120  MainActivity            com.example.notes                    D  onCreate
+2026-10-21 20:27:05.048  7120-7120  MainActivity            com.example.notes                    D  onStart
+2026-10-21 20:27:05.055  7120-7120  MainActivity            com.example.notes                    D  onResume
+2026-10-21 20:27:05.067  7120-7120  CompatChangeReporter    com.example.notes                    D  Compat change id reported: 418924588; UID 10235; state: ENABLED
+2026-10-21 20:27:05.070  7120-7120  HWUI                    com.example.notes                    W  Unknown dataspace 0
+2026-10-21 20:27:05.087  7120-7120  Choreographer           com.example.notes                    I  Skipped 52 frames!  The application may be doing too much work on its main thread.
+2026-10-21 20:27:05.089  7120-7139  libc                    com.example.notes                    W  Access denied finding property "vendor.mesa.virtgpu.kumquat"
+2026-10-21 20:27:05.093  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@94d920c
+2026-10-21 20:27:05.099  7120-7120  VRI[MainActivity]       com.example.notes                    D  WindowInsets changed: 1080x2400 statusBars:[0,63,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,63,0,84]
+2026-10-21 20:27:05.124  7120-7120  HWUI                    com.example.notes                    I  Using FreeType backend (prop=Auto)
+2026-10-21 20:27:05.138  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer unnamed-7120-0 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:05.140  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer VRI[MainActivity]#0(BLAST Consumer)0 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:05.358  7120-7132  HWUI                    com.example.notes                    I  Davey! duration=1089ms; Flags=1, FrameTimelineVsyncId=78289, IntendedVsync=1068076743782, Vsync=1068943410414, InputEventId=0, HandleInputStart=1068947234300, AnimationStart=1068947367600, PerformTraversalsStart=1068949049800, DrawStart=1069050220200, FrameDeadline=1068093410448, FrameStartTime=1068945576200, FrameInterval=16666666, WorkloadTarget=16666666, AnimationTime=1068943410414, SyncQueued=1069057790600, SyncStart=1069086517200, IssueDrawCommandsStart=1069086833900, SwapBuffers=1069171192600, FrameCompleted=1069194630700, DequeueBufferDuration=27400, QueueBufferDuration=326100, GpuCompleted=1069194630700, SwapBuffersCompleted=1069187698800, DisplayPresentTime=0, CommandSubmissionCompleted=1069171192600,
+2026-10-21 20:27:05.387  7120-7120  InsetsController        com.example.notes                    D  hide(ime())
+2026-10-21 20:27:05.387  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:9ed4a591: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-10-21 20:27:05.861  7120-7125  m.example.notes         com.example.notes                    I  Compiler allocated 5239KB to compile void android.view.ViewRootImpl.performTraversals(long)
+2026-10-21 20:27:10.412  7120-7151  ProfileInstaller        com.example.notes                    D  Installing profile for com.example.notes
+2026-10-21 20:27:11.788  7120-7120  MainActivity            com.example.notes                    I  Добавление заметки
+2026-10-21 20:27:11.826  7120-7120  MainActivity            com.example.notes                    D  onPause
+2026-10-21 20:27:11.908  7120-7120  EditNoteActivity        com.example.notes                    D  onCreate
+2026-10-21 20:27:11.911  7120-7120  EditNoteActivity        com.example.notes                    D  onStart
+2026-10-21 20:27:11.913  7120-7120  EditNoteActivity        com.example.notes                    D  onResume
+2026-10-21 20:27:11.959  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@704ed06
+2026-10-21 20:27:11.971  7120-7120  VRI[EditNoteActivity]   com.example.notes                    D  WindowInsets changed: 1080x2400 statusBars:[0,63,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,63,0,84]
+2026-10-21 20:27:11.996  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer unnamed-7120-1 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:11.996  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer VRI[EditNoteActivity]#1(BLAST Consumer)1 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:12.319  7120-7120  InsetsController        com.example.notes                    D  hide(ime())
+2026-10-21 20:27:12.319  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:d43539a: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-10-21 20:27:12.693  7120-7120  VRI[MainActivity]       com.example.notes                    D  visibilityChanged oldVisibility=true newVisibility=false
+2026-10-21 20:27:12.723  7120-7120  MainActivity            com.example.notes                    D  onStop
+2026-10-21 20:27:13.769  7120-7120  AutofillManager         com.example.notes                    I  showAutofillDialog() return false due to improve fill dialog
+2026-10-21 20:27:13.771  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:77e88698: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser true userId 0 displayId 0
+2026-10-21 20:27:13.775  7120-7120  InsetsController        com.example.notes                    D  show(ime())
+2026-10-21 20:27:13.775  7120-7120  InsetsController        com.example.notes                    D  Setting requestedVisibleTypes to 511 (was 503)
+2026-10-21 20:27:13.784  7120-7120  AssistStructure         com.example.notes                    I  Flattened final assist data: 1696 bytes, containing 1 windows, 6 views
+2026-10-21 20:27:13.918  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@8547e4a
+2026-10-21 20:27:14.116  7120-7120  InteractionJankMonitor  com.example.notes                    W  Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.example.notes
+2026-10-21 20:27:14.288  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:77e88698: onShown
+2026-10-21 20:27:18.896  7120-7120  CompatChangeReporter    com.example.notes                    D  Compat change id reported: 417951523; UID 10235; state: ENABLED
+2026-10-21 20:27:23.550  7120-7120  AutofillManager         com.example.notes                    I  showAutofillDialog() return false due to improve fill dialog
+2026-10-21 20:27:23.551  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:1e7b9f3b: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser true userId 0 displayId 0
+2026-10-21 20:27:23.551  7120-7120  InsetsController        com.example.notes                    D  show(ime())
+2026-10-21 20:27:23.551  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:1e7b9f3b: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+2026-10-21 20:27:23.582  7120-7120  RemoteInpu...ectionImpl com.example.notes                    W  requestCursorUpdates on inactive InputConnection
+2026-10-21 20:27:23.583  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@704ed06
+2026-10-21 20:27:23.648  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@8547e4a
+2026-10-21 20:27:29.410  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer unnamed-7120-2 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:29.412  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer magnifier surface#2(BLAST Consumer)2 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:29.563  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.widget.PopupWindow$PopupDecorView$$ExternalSyntheticLambda1@d1c9314
+2026-10-21 20:27:29.572  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer unnamed-7120-3 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:29.574  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer VRI[PopupWindow:bfb1b6f]#3(BLAST Consumer)3 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:30.935  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): null
+2026-10-21 20:27:33.581  7120-7120  EditNoteActivity        com.example.notes                    I  Заметка создана: Privet
+2026-10-21 20:27:33.634  7120-7120  EditNoteActivity        com.example.notes                    D  onPause
+2026-10-21 20:27:33.664  7120-7120  ViewRootImpl            com.example.notes                    D  Skipping stats log for color mode
+2026-10-21 20:27:33.665  7120-7120  MainActivity            com.example.notes                    D  onStart
+2026-10-21 20:27:33.672  7120-7120  MainActivity            com.example.notes                    D  onResume
+2026-10-21 20:27:33.690  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer unnamed-7120-4 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:33.691  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer VRI[MainActivity]#4(BLAST Consumer)4 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:33.940  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:52f22800: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+2026-10-21 20:27:33.960  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@704ed06
+2026-10-21 20:27:33.961  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@7641f6b
+2026-10-21 20:27:34.100  7120-7120  InsetsController        com.example.notes                    D  hide(ime())
+2026-10-21 20:27:34.102  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:866a75c: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-10-21 20:27:34.137  7120-7120  ImeTracker              com.example.notes                    I  system_server:9431e6ad: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+2026-10-21 20:27:34.140  7120-7120  RemoteInpu...ectionImpl com.example.notes                    W  requestCursorUpdates on inactive InputConnection
+2026-10-21 20:27:34.145  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@94d920c
+2026-10-21 20:27:34.236  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@7641f6b
+2026-10-21 20:27:34.270  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@94d920c
+2026-10-21 20:27:34.417  7120-7120  VRI[EditNoteActivity]   com.example.notes                    D  visibilityChanged oldVisibility=true newVisibility=false
+2026-10-21 20:27:34.461  7120-7120  AutofillManager         com.example.notes                    I  onInvisibleForAutofill(): expiringResponse
+2026-10-21 20:27:34.461  7120-7120  EditNoteActivity        com.example.notes                    D  onStop
+2026-10-21 20:27:34.462  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): null
+2026-10-21 20:27:34.464  7120-7120  EditNoteActivity        com.example.notes                    D  onDestroy
+2026-10-21 20:27:34.466  7120-7120  ViewRootImpl            com.example.notes                    D  Skipping stats log for color mode
+2026-10-21 20:27:36.967  7120-7120  MainActivity            com.example.notes                    I  Добавление заметки
+2026-10-21 20:27:37.048  7120-7120  MainActivity            com.example.notes                    D  onPause
+2026-10-21 20:27:37.168  7120-7120  EditNoteActivity        com.example.notes                    D  onCreate
+2026-10-21 20:27:37.170  7120-7120  EditNoteActivity        com.example.notes                    D  onStart
+2026-10-21 20:27:37.172  7120-7120  EditNoteActivity        com.example.notes                    D  onResume
+2026-10-21 20:27:37.211  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@204a64
+2026-10-21 20:27:37.214  7120-7120  VRI[EditNoteActivity]   com.example.notes                    D  WindowInsets changed: 1080x2400 statusBars:[0,63,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,63,0,84]
+2026-10-21 20:27:37.251  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer unnamed-7120-5 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:37.252  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer VRI[EditNoteActivity]#5(BLAST Consumer)5 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:37.703  7120-7120  InsetsController        com.example.notes                    D  hide(ime())
+2026-10-21 20:27:37.703  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:e6cba5d5: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-10-21 20:27:37.950  7120-7120  VRI[MainActivity]       com.example.notes                    D  visibilityChanged oldVisibility=true newVisibility=false
+2026-10-21 20:27:38.000  7120-7120  MainActivity            com.example.notes                    D  onStop
+2026-10-21 20:27:38.314  7120-7120  EditNoteActivity        com.example.notes                    W  Пустые поля
+2026-10-21 20:27:40.269  7120-7120  EditNoteActivity        com.example.notes                    D  onPause
+2026-10-21 20:27:40.277  7120-7120  ViewRootImpl            com.example.notes                    D  Skipping stats log for color mode
+2026-10-21 20:27:40.278  7120-7120  MainActivity            com.example.notes                    D  onStart
+2026-10-21 20:27:40.279  7120-7120  MainActivity            com.example.notes                    D  onResume
+2026-10-21 20:27:40.305  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer unnamed-7120-6 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:40.309  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer VRI[MainActivity]#6(BLAST Consumer)6 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:40.511  7120-7120  InsetsController        com.example.notes                    D  hide(ime())
+2026-10-21 20:27:40.512  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:5321f5ad: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-10-21 20:27:40.968  7120-7120  VRI[EditNoteActivity]   com.example.notes                    D  visibilityChanged oldVisibility=true newVisibility=false
+2026-10-21 20:27:41.006  7120-7120  EditNoteActivity        com.example.notes                    D  onStop
+2026-10-21 20:27:41.012  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): null
+2026-10-21 20:27:41.012  7120-7120  EditNoteActivity        com.example.notes                    D  onDestroy
+2026-10-21 20:27:41.015  7120-7120  ViewRootImpl            com.example.notes                    D  Skipping stats log for color mode
+2026-10-21 20:27:46.070  7120-7120  MainActivity            com.example.notes                    I  Открыта заметка: Privet
+2026-10-21 20:27:46.094  7120-7120  MainActivity            com.example.notes                    D  onPause
+2026-10-21 20:27:46.134  7120-7120  DetailActivity          com.example.notes                    D  onCreate
+2026-10-21 20:27:46.137  7120-7120  DetailActivity          com.example.notes                    D  onStart
+2026-10-21 20:27:46.140  7120-7120  DetailActivity          com.example.notes                    D  onResume
+2026-10-21 20:27:46.140  7120-7120  DetailActivity          com.example.notes                    D  Заметка отображена: Privet
+2026-10-21 20:27:46.154  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@82387a2
+2026-10-21 20:27:46.155  7120-7120  VRI[DetailActivity]     com.example.notes                    D  WindowInsets changed: 1080x2400 statusBars:[0,63,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,63,0,84]
+2026-10-21 20:27:46.168  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer unnamed-7120-7 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:46.170  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer VRI[DetailActivity]#7(BLAST Consumer)7 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:46.415  7120-7120  InsetsController        com.example.notes                    D  hide(ime())
+2026-10-21 20:27:46.415  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:3822658: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-10-21 20:27:46.780  7120-7120  VRI[MainActivity]       com.example.notes                    D  visibilityChanged oldVisibility=true newVisibility=false
+2026-10-21 20:27:46.819  7120-7120  MainActivity            com.example.notes                    D  onStop
+2026-10-21 20:27:50.934  7120-7120  DetailActivity          com.example.notes                    I  Нажата кнопка редактирования
+2026-10-21 20:27:50.982  7120-7120  DetailActivity          com.example.notes                    D  onPause
+2026-10-21 20:27:51.053  7120-7120  EditNoteActivity        com.example.notes                    D  onCreate
+2026-10-21 20:27:51.055  7120-7120  EditNoteActivity        com.example.notes                    I  Редактирование: Privet
+2026-10-21 20:27:51.058  7120-7120  EditNoteActivity        com.example.notes                    D  onStart
+2026-10-21 20:27:51.059  7120-7120  EditNoteActivity        com.example.notes                    D  onResume
+2026-10-21 20:27:51.104  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@e9d6c12
+2026-10-21 20:27:51.107  7120-7120  VRI[EditNoteActivity]   com.example.notes                    D  WindowInsets changed: 1080x2400 statusBars:[0,63,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,63,0,84]
+2026-10-21 20:27:51.121  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer unnamed-7120-8 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:51.124  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer VRI[EditNoteActivity]#8(BLAST Consumer)8 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:51.669  7120-7120  InsetsController        com.example.notes                    D  hide(ime())
+2026-10-21 20:27:51.669  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:7b85a459: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-10-21 20:27:51.848  7120-7120  VRI[DetailActivity]     com.example.notes                    D  visibilityChanged oldVisibility=true newVisibility=false
+2026-10-21 20:27:51.942  7120-7120  DetailActivity          com.example.notes                    D  onStop
+2026-10-21 20:27:52.150  7120-7120  AutofillManager         com.example.notes                    I  showAutofillDialog() return false due to improve fill dialog
+2026-10-21 20:27:52.151  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:7b30075a: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser true userId 0 displayId 0
+2026-10-21 20:27:52.151  7120-7120  InsetsController        com.example.notes                    D  show(ime())
+2026-10-21 20:27:52.151  7120-7120  InsetsController        com.example.notes                    D  Setting requestedVisibleTypes to 511 (was 503)
+2026-10-21 20:27:52.173  7120-7120  AssistStructure         com.example.notes                    I  Flattened final assist data: 1812 bytes, containing 2 windows, 7 views
+2026-10-21 20:27:52.177  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.widget.PopupWindow$PopupDecorView$$ExternalSyntheticLambda1@cebb6e6
+2026-10-21 20:27:52.182  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer unnamed-7120-9 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:52.184  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer VRI[PopupWindow:958831a]#9(BLAST Consumer)9 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:52.365  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@b328779
+2026-10-21 20:27:52.476  7120-7120  AutofillManager         com.example.notes                    I  showAutofillDialog() return false due to improve fill dialog
+2026-10-21 20:27:52.488  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:52a2f490: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser true userId 0 displayId 0
+2026-10-21 20:27:52.491  7120-7120  InsetsController        com.example.notes                    D  show(ime())
+2026-10-21 20:27:52.492  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:52a2f490: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+2026-10-21 20:27:52.492  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): null
+2026-10-21 20:27:52.613  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.widget.PopupWindow$PopupDecorView$$ExternalSyntheticLambda1@7a34358
+2026-10-21 20:27:52.643  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer unnamed-7120-10 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:52.645  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer VRI[PopupWindow:958831a]#10(BLAST Consumer)10 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:52.876  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): null
+2026-10-21 20:27:52.945  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:7b30075a: onShown
+2026-10-21 20:27:54.303  7120-7120  EditNoteActivity        com.example.notes                    I  Заметка изменена: Privet
+2026-10-21 20:27:54.429  7120-7120  EditNoteActivity        com.example.notes                    D  onPause
+2026-10-21 20:27:54.523  7120-7120  ViewRootImpl            com.example.notes                    D  Skipping stats log for color mode
+2026-10-21 20:27:54.524  7120-7120  DetailActivity          com.example.notes                    D  onStart
+2026-10-21 20:27:54.526  7120-7120  DetailActivity          com.example.notes                    D  onResume
+2026-10-21 20:27:54.527  7120-7120  DetailActivity          com.example.notes                    D  Заметка отображена: Privet
+2026-10-21 20:27:54.568  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer unnamed-7120-11 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:54.570  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer VRI[DetailActivity]#11(BLAST Consumer)11 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:54.753  7120-7120  ImeTracker              com.example.notes                    I  system_server:e33521c0: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+2026-10-21 20:27:54.783  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@e9d6c12
+2026-10-21 20:27:54.783  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@de65791
+2026-10-21 20:27:54.889  7120-7120  InsetsController        com.example.notes                    D  hide(ime())
+2026-10-21 20:27:54.890  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:d9ec0adb: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-10-21 20:27:54.948  7120-7120  ImeTracker              com.example.notes                    I  system_server:3cd04af: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+2026-10-21 20:27:54.952  7120-7120  RemoteInpu...ectionImpl com.example.notes                    W  requestCursorUpdates on inactive InputConnection
+2026-10-21 20:27:54.953  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@82387a2
+2026-10-21 20:27:55.078  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@de65791
+2026-10-21 20:27:55.115  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@82387a2
+2026-10-21 20:27:55.259  7120-7120  VRI[EditNoteActivity]   com.example.notes                    D  visibilityChanged oldVisibility=true newVisibility=false
+2026-10-21 20:27:55.291  7120-7120  AutofillManager         com.example.notes                    I  onInvisibleForAutofill(): expiringResponse
+2026-10-21 20:27:55.291  7120-7120  EditNoteActivity        com.example.notes                    D  onStop
+2026-10-21 20:27:55.296  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): null
+2026-10-21 20:27:55.296  7120-7120  EditNoteActivity        com.example.notes                    D  onDestroy
+2026-10-21 20:27:55.302  7120-7120  ViewRootImpl            com.example.notes                    D  Skipping stats log for color mode
+2026-10-21 20:27:59.265  7120-7120  DetailActivity          com.example.notes                    D  onPause
+2026-10-21 20:27:59.279  7120-7120  ViewRootImpl            com.example.notes                    D  Skipping stats log for color mode
+2026-10-21 20:27:59.280  7120-7120  MainActivity            com.example.notes                    D  onStart
+2026-10-21 20:27:59.281  7120-7120  MainActivity            com.example.notes                    D  onResume
+2026-10-21 20:27:59.294  7120-7120  VRI[MainActivity]       com.example.notes                    D  visibilityChanged oldVisibility=false newVisibility=true
+2026-10-21 20:27:59.308  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer unnamed-7120-12 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:59.309  7120-7120  Surface                 com.example.notes                    I  Creating surface for consumer VRI[MainActivity]#12(BLAST Consumer)12 with slotExpansion=1 for 64 slots
+2026-10-21 20:27:59.599  7120-7120  InsetsController        com.example.notes                    D  hide(ime())
+2026-10-21 20:27:59.599  7120-7120  ImeTracker              com.example.notes                    I  com.example.notes:17c3a6d2: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-10-21 20:28:00.023  7120-7120  VRI[DetailActivity]     com.example.notes                    D  visibilityChanged oldVisibility=true newVisibility=false
+2026-10-21 20:28:00.054  7120-7120  DetailActivity          com.example.notes                    D  onStop
+2026-10-21 20:28:00.058  7120-7120  WindowOnBackDispatcher  com.example.notes                    D  setTopOnBackInvokedCallback (unwrapped): null
+2026-10-21 20:28:00.059  7120-7120  DetailActivity          com.example.notes                    D  onDestroy
+2026-10-21 20:28:00.062  7120-7120  ViewRootImpl            com.example.notes                    D  Skipping stats log for color mode
